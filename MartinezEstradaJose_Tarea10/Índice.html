@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Índice</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            #botones {
+                margin-bottom: 20px;
+            }
+
+            #iframeEjercicio {
+                width: 800px;
+                height: 600px;
+            }
+
+            button {
+                background-color: skyblue;
+                color: white;
+                padding: 10px 20px;
+                font-size: 16px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>EJERCICIOS TAREA 10</h1>
+        <div id="botones">
+            <button onclick="iframeEjercicio.src = 'MartinezEstradaJose_Tarea10_Ejercicio1.html'">Ejercicio 1</button>
+            <button onclick="iframeEjercicio.src = 'MartinezEstradaJose_Tarea10_Ejercicio2.html'">Ejercicio 2</button>
+            <button onclick="iframeEjercicio.src = 'MartinezEstradaJose_Tarea10_Ejercicio3.html'">Ejercicio 3</button>
+        </div>
+        <iframe id="iframeEjercicio" src=""></iframe>
+    </body>
+</html>
